@@ -47,37 +47,57 @@
 	position: relative;
 	top: 76%;
 	left: 50%;
-	transform: translate(-59%,-50%);
+	transform: translate(-50%,-50%);
+	display: flex;
+	justify-content: space-around;
 }
-}
-@media(max-width:767px){
-	.team-member{
-		text-align: center;
-	}
-}
-.text-center{
-position: relative;
-justify-content:center;
-}
-#only_text{
-	margin-top: 15%;
-}
-#text_me{
-	color: #f1c40f;
 }
 #lorem_text{
 	margin-top: 30px;
 }
 .info{
 	display: inline-block;
-	margin-top: 30px;
-	margin-left: 18px;
 }
 .info h4{
 	color: #f1c40f;
 }
-.last-row{
-	margin-top: 5%;
+@media(max-width: 767px){
+	.team_lisa{
+		position: relative;
+		margin-left: 50%;
+		transform: translate(-50%);
+	}
+}@media(max-width: 767px){
+	.team_danielle{
+		position: relative;
+		margin-left: 50%;
+		transform: translate(-50%);
+	}
+}@media(max-width: 767px){
+	.team_brian{
+		position: relative;
+		margin-left: 50%;
+		transform: translate(-50%);
+	}
+}
+@media(min-width:768px){
+	.last-row{
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+}
+@media(max-width:767px){
+	.div-1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+}
+@media(max-width:767px){
+	.div-2{
+	text-align: center;
+	margin-top: 20px;
+}
 }
 footer{
 	background-color: #2d3436;
